@@ -1,0 +1,11 @@
+﻿global using System.ComponentModel.DataAnnotations;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Mvc;
+global using ProjectAPI.Models;
+global using ProjectAPI.Models.Auth;
+global using ProjectAPI.Models.DTO;
+global using ProjectAPI.Data;
+global using ProjectAPI.Repository.Abstract;

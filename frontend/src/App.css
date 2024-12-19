@@ -1,0 +1,52 @@
+body {
+  font-size: 20px !important;
+}
+
+button,
+input {
+  font-size: 20px !important;
+  border-radius: 5px !important;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+.paginationBttns {
+  width: auto;
+  height: 40px;
+  margin-top: 20px !important;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 10px;
+
+  border-radius: 5px;
+  border: 1px solid green;
+  color: green;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: green;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: green;
+}
+
+.paginationDisabled a {
+  color: grey;
+  background-color: grey;
+}
+
+img {
+  height: calc(width * 0.1) !important;
+}

@@ -1,0 +1,18 @@
+.active {
+  background-color: aqua;
+}
+
+.nav-link:hover {
+  background-color: aqua;
+}
+
+.logout:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+
+h5 {
+  color: red;
+  font-family: "Dancing Script";
+  text-shadow: 3px 3px 3px #ababab;
+}

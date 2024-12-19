@@ -1,0 +1,26 @@
+{categories.map((category) => (
+    <tr key={category.id}>
+      <td>{category.id}</td>
+      <td>{category.name}</td>
+      <td>
+        <button
+          type="button"
+          className="btn btn-primary"
+          onClick={(e) => handleShowModal(e, category.id)}
+        >
+          <FontAwesomeIcon icon={faPencil} /> Edit
+        </button>
+      </td>
+      <td>
+        <button
+          type="button"
+          className="btn btn-danger"
+          onClick={() => {
+            deleteCategory(category.id);
+          }}
+        >
+          <FontAwesomeIcon icon={faTrashCan} /> Delete
+        </button>
+      </td>
+    </tr>
+  ))}

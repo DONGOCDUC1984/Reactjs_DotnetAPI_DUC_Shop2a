@@ -1,0 +1,17 @@
+﻿global using ProjectTest.MockData;
+global using ProjectAPI.Models;
+global using ProjectAPI.Models.DTO;
+global using ProjectAPI.Controllers;
+global using ProjectAPI.Repository.Abstract;
+global using ProjectAPI.Data;
+global using ProjectAPI.Repository.Implementation;
+global using Microsoft.EntityFrameworkCore;
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using FluentAssertions;
+global using Microsoft.AspNetCore.Mvc;
+global using Moq;
+global using Xunit;
